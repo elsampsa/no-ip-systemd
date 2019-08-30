@@ -22,3 +22,12 @@ sudo systemctl --user disable noip.service
 sudo systemctl status pusher.service
 sudo journalctl -q --unit noip.service -f
 ```
+
+## Authors
+Sampsa Riikonen
+
+## Copyright
+(C) 2019 Sampsa Riikonen
+
+## License
+MIT
