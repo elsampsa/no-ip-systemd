@@ -1,0 +1,11 @@
+[Unit]
+Description=NoIP client
+After=network.target
+
+[Service]
+ExecStart=/usr/sbin/noip.py
+Restart=always
+RestartSec=300
+
+[Install]
+WantedBy=default.target
